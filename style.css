@@ -1,3 +1,17 @@
-.white-text {
-    color: white;
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 400px;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+hr {
+    max-width: 300px;
 }
