@@ -1,17 +1,23 @@
-footer {
+body {
+    height: 100vh;
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    max-width: 400px;
+    flex-direction: column;
 }
 
 main {
     text-align: center;
-    margin: auto;
-    max-width: 600px;
+}
+
+footer {
+    min-height: 50px;
+    margin: auto auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
 }
 
 hr {
-    max-width: 300px;
+    width: 300px;
 }
